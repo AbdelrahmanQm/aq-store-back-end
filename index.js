@@ -9,7 +9,7 @@ app.use(cors());
 
 /* Connecting to server */
 mongoose.connect(
-  "mongodb+srv://maindbuser:5QmPXl77QQAsrufs@aq-jeans.yfkadue.mongodb.net/aqstore?retryWrites=true&w=majority",
+  "",
   () => {
     console.log("connected");
   },
